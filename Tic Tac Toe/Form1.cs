@@ -33,5 +33,133 @@ namespace Tic_Tac_Toe
                 }
             }
         }
+
+        private void Tile2_Click(object sender, EventArgs e)
+        {
+            if (Tile2.Text == "")
+            {
+                Tile2.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile3_Click(object sender, EventArgs e)
+        {
+            if (Tile3.Text == "")
+            {
+                Tile3.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile4_Click(object sender, EventArgs e)
+        {
+            if (Tile4.Text == "")
+            {
+                Tile4.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile5_Click(object sender, EventArgs e)
+        {
+            if (Tile5.Text == "")
+            {
+                Tile5.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile6_Click(object sender, EventArgs e)
+        {
+            if (Tile6.Text == "")
+            {
+                Tile6.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile7_Click(object sender, EventArgs e)
+        {
+            if (Tile7.Text == "")
+            {
+                Tile7.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile8_Click(object sender, EventArgs e)
+        {
+            if (Tile8.Text == "")
+            {
+                Tile8.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
+
+        private void Tile9_Click(object sender, EventArgs e)
+        {
+            if (Tile9.Text == "")
+            {
+                Tile9.Text = Trn;
+                if (Trn == "X")
+                {
+                    Trn = "O";
+                }
+                else
+                {
+                    Trn = "X";
+                }
+            }
+        }
     }
 }

@@ -56,6 +56,7 @@ namespace Tic_Tac_Toe
             this.Tile2.Size = new System.Drawing.Size(109, 77);
             this.Tile2.TabIndex = 1;
             this.Tile2.UseVisualStyleBackColor = true;
+            this.Tile2.Click += new System.EventHandler(this.Tile2_Click);
             // 
             // Tile3
             // 
@@ -64,6 +65,7 @@ namespace Tic_Tac_Toe
             this.Tile3.Size = new System.Drawing.Size(109, 77);
             this.Tile3.TabIndex = 2;
             this.Tile3.UseVisualStyleBackColor = true;
+            this.Tile3.Click += new System.EventHandler(this.Tile3_Click);
             // 
             // Tile4
             // 
@@ -72,6 +74,7 @@ namespace Tic_Tac_Toe
             this.Tile4.Size = new System.Drawing.Size(109, 77);
             this.Tile4.TabIndex = 5;
             this.Tile4.UseVisualStyleBackColor = true;
+            this.Tile4.Click += new System.EventHandler(this.Tile4_Click);
             // 
             // Tile5
             // 
@@ -80,6 +83,7 @@ namespace Tic_Tac_Toe
             this.Tile5.Size = new System.Drawing.Size(109, 77);
             this.Tile5.TabIndex = 4;
             this.Tile5.UseVisualStyleBackColor = true;
+            this.Tile5.Click += new System.EventHandler(this.Tile5_Click);
             // 
             // Tile6
             // 
@@ -88,6 +92,7 @@ namespace Tic_Tac_Toe
             this.Tile6.Size = new System.Drawing.Size(109, 77);
             this.Tile6.TabIndex = 3;
             this.Tile6.UseVisualStyleBackColor = true;
+            this.Tile6.Click += new System.EventHandler(this.Tile6_Click);
             // 
             // Tile7
             // 
@@ -96,6 +101,7 @@ namespace Tic_Tac_Toe
             this.Tile7.Size = new System.Drawing.Size(109, 77);
             this.Tile7.TabIndex = 8;
             this.Tile7.UseVisualStyleBackColor = true;
+            this.Tile7.Click += new System.EventHandler(this.Tile7_Click);
             // 
             // Tile8
             // 
@@ -104,6 +110,7 @@ namespace Tic_Tac_Toe
             this.Tile8.Size = new System.Drawing.Size(109, 77);
             this.Tile8.TabIndex = 7;
             this.Tile8.UseVisualStyleBackColor = true;
+            this.Tile8.Click += new System.EventHandler(this.Tile8_Click);
             // 
             // Tile9
             // 
@@ -112,6 +119,7 @@ namespace Tic_Tac_Toe
             this.Tile9.Size = new System.Drawing.Size(109, 77);
             this.Tile9.TabIndex = 6;
             this.Tile9.UseVisualStyleBackColor = true;
+            this.Tile9.Click += new System.EventHandler(this.Tile9_Click);
             // 
             // Form1
             // 
