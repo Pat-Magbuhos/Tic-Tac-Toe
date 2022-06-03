@@ -125,9 +125,10 @@ namespace Tic_Tac_Toe
             // 
             // rst
             // 
-            this.rst.Location = new System.Drawing.Point(134, 25);
+            this.rst.Font = new System.Drawing.Font("Old English Text MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rst.Location = new System.Drawing.Point(133, 25);
             this.rst.Name = "rst";
-            this.rst.Size = new System.Drawing.Size(123, 22);
+            this.rst.Size = new System.Drawing.Size(138, 37);
             this.rst.TabIndex = 9;
             this.rst.Text = "DRAW";
             this.rst.UseVisualStyleBackColor = true;
@@ -159,7 +160,6 @@ namespace Tic_Tac_Toe
             this.Controls.Add(this.Tile2);
             this.Controls.Add(this.Tile1);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
