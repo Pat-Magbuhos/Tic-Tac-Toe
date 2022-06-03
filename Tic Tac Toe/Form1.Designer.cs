@@ -38,6 +38,8 @@ namespace Tic_Tac_Toe
             this.Tile7 = new System.Windows.Forms.Button();
             this.Tile8 = new System.Windows.Forms.Button();
             this.Tile9 = new System.Windows.Forms.Button();
+            this.rst = new System.Windows.Forms.Button();
+            this.inst = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Tile1
@@ -121,11 +123,32 @@ namespace Tic_Tac_Toe
             this.Tile9.UseVisualStyleBackColor = true;
             this.Tile9.Click += new System.EventHandler(this.Tile9_Click);
             // 
+            // rst
+            // 
+            this.rst.Location = new System.Drawing.Point(134, 25);
+            this.rst.Name = "rst";
+            this.rst.Size = new System.Drawing.Size(123, 22);
+            this.rst.TabIndex = 9;
+            this.rst.Text = "DRAW";
+            this.rst.UseVisualStyleBackColor = true;
+            this.rst.Click += new System.EventHandler(this.rst_Click);
+            // 
+            // inst
+            // 
+            this.inst.Location = new System.Drawing.Point(8, 9);
+            this.inst.Name = "inst";
+            this.inst.Size = new System.Drawing.Size(31, 27);
+            this.inst.TabIndex = 10;
+            this.inst.UseVisualStyleBackColor = true;
+            this.inst.Click += new System.EventHandler(this.inst_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(404, 324);
+            this.Controls.Add(this.inst);
+            this.Controls.Add(this.rst);
             this.Controls.Add(this.Tile7);
             this.Controls.Add(this.Tile8);
             this.Controls.Add(this.Tile9);
@@ -152,6 +175,8 @@ namespace Tic_Tac_Toe
         private System.Windows.Forms.Button Tile7;
         private System.Windows.Forms.Button Tile8;
         private System.Windows.Forms.Button Tile9;
+        private System.Windows.Forms.Button rst;
+        private System.Windows.Forms.Button inst;
     }
 }
 

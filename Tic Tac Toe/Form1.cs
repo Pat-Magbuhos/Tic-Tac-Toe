@@ -545,5 +545,18 @@ namespace Tic_Tac_Toe
                 }
             }
         }
+
+        private void rst_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void inst_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The game is played in a 3x3 grid squares.");
+            MessageBox.Show(" Player X and Player O take turns in putting their mark in empty squares.");
+            MessageBox.Show("The first player to get 3 marks in a row (up, down, across, or diagonally) is the winner.");
+            MessageBox.Show("If no player has 3 marks in a row, the game ends in a tie.");
+        }   
     }
 }
