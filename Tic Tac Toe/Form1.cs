@@ -79,6 +79,22 @@ namespace Tic_Tac_Toe
                 {
                     Trn = "X";
                 }
+                if (Tile3.Text == Tile5.Text)
+                {
+                    if (Tile5.Text == Tile9.Text)
+                    {
+                        MessageBox.Show("Player " + Tile9.Text + " is the Winner");
+                        Tile1.Text = "";
+                        Tile2.Text = "";
+                        Tile3.Text = "";
+                        Tile4.Text = "";
+                        Tile5.Text = "";
+                        Tile6.Text = "";
+                        Tile7.Text = "";
+                        Tile8.Text = "";
+                        Tile9.Text = "";
+                    }
+                }
             }
         }
 
@@ -116,6 +132,22 @@ namespace Tic_Tac_Toe
                     if (Tile7.Text == Tile1.Text)
                     {
                         MessageBox.Show("Player " + Tile1.Text + " is the Winner");
+                        Tile1.Text = "";
+                        Tile2.Text = "";
+                        Tile3.Text = "";
+                        Tile4.Text = "";
+                        Tile5.Text = "";
+                        Tile6.Text = "";
+                        Tile7.Text = "";
+                        Tile8.Text = "";
+                        Tile9.Text = "";
+                    }
+                }
+                if (Tile5.Text == Tile3.Text)
+                {
+                    if (Tile3.Text == Tile9.Text)
+                    {
+                        MessageBox.Show("Player " + Tile9.Text + " is the Winner");
                         Tile1.Text = "";
                         Tile2.Text = "";
                         Tile3.Text = "";
@@ -206,6 +238,22 @@ namespace Tic_Tac_Toe
                 else
                 {
                     Trn = "X";
+                }
+                if (Tile9.Text == Tile5.Text)
+                {
+                    if (Tile5.Text == Tile3.Text)
+                    {
+                        MessageBox.Show("Player " + Tile9.Text + " is the Winner");
+                        Tile1.Text = "";
+                        Tile2.Text = "";
+                        Tile3.Text = "";
+                        Tile4.Text = "";
+                        Tile5.Text = "";
+                        Tile6.Text = "";
+                        Tile7.Text = "";
+                        Tile8.Text = "";
+                        Tile9.Text = "";
+                    }
                 }
             }
         }
