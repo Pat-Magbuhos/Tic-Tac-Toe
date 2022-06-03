@@ -548,7 +548,15 @@ namespace Tic_Tac_Toe
 
         private void rst_Click(object sender, EventArgs e)
         {
-            
+            Tile1.Text = "";
+            Tile2.Text = "";
+            Tile3.Text = "";
+            Tile4.Text = "";
+            Tile5.Text = "";
+            Tile6.Text = "";
+            Tile7.Text = "";
+            Tile8.Text = "";
+            Tile9.Text = "";
         }
 
         private void inst_Click(object sender, EventArgs e)
@@ -557,6 +565,7 @@ namespace Tic_Tac_Toe
             MessageBox.Show(" Player X and Player O take turns in putting their mark in empty squares.");
             MessageBox.Show("The first player to get 3 marks in a row (up, down, across, or diagonally) is the winner.");
             MessageBox.Show("If no player has 3 marks in a row, the game ends in a tie.");
+            MessageBox.Show("Enjoy the game and have some fun!");
         }   
     }
 }
