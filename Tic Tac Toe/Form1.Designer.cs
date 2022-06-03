@@ -47,6 +47,7 @@ namespace Tic_Tac_Toe
             this.Tile1.Size = new System.Drawing.Size(109, 77);
             this.Tile1.TabIndex = 0;
             this.Tile1.UseVisualStyleBackColor = true;
+            this.Tile1.Click += new System.EventHandler(this.Tile1_Click);
             // 
             // Tile2
             // 
