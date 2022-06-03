@@ -45,98 +45,112 @@ namespace Tic_Tac_Toe
             // 
             // Tile1
             // 
+            this.Tile1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Tile1.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile1.Location = new System.Drawing.Point(33, 68);
             this.Tile1.Name = "Tile1";
             this.Tile1.Size = new System.Drawing.Size(109, 77);
             this.Tile1.TabIndex = 0;
-            this.Tile1.UseVisualStyleBackColor = true;
+            this.Tile1.UseVisualStyleBackColor = false;
             this.Tile1.Click += new System.EventHandler(this.Tile1_Click);
             // 
             // Tile2
             // 
+            this.Tile2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile2.Location = new System.Drawing.Point(33, 151);
             this.Tile2.Name = "Tile2";
             this.Tile2.Size = new System.Drawing.Size(109, 77);
             this.Tile2.TabIndex = 1;
-            this.Tile2.UseVisualStyleBackColor = true;
+            this.Tile2.UseVisualStyleBackColor = false;
             this.Tile2.Click += new System.EventHandler(this.Tile2_Click);
             // 
             // Tile3
             // 
+            this.Tile3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile3.Location = new System.Drawing.Point(33, 234);
             this.Tile3.Name = "Tile3";
             this.Tile3.Size = new System.Drawing.Size(109, 77);
             this.Tile3.TabIndex = 2;
-            this.Tile3.UseVisualStyleBackColor = true;
+            this.Tile3.UseVisualStyleBackColor = false;
             this.Tile3.Click += new System.EventHandler(this.Tile3_Click);
             // 
             // Tile4
             // 
+            this.Tile4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile4.Location = new System.Drawing.Point(148, 234);
             this.Tile4.Name = "Tile4";
             this.Tile4.Size = new System.Drawing.Size(109, 77);
             this.Tile4.TabIndex = 5;
-            this.Tile4.UseVisualStyleBackColor = true;
+            this.Tile4.UseVisualStyleBackColor = false;
             this.Tile4.Click += new System.EventHandler(this.Tile4_Click);
             // 
             // Tile5
             // 
+            this.Tile5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile5.Location = new System.Drawing.Point(148, 151);
             this.Tile5.Name = "Tile5";
             this.Tile5.Size = new System.Drawing.Size(109, 77);
             this.Tile5.TabIndex = 4;
-            this.Tile5.UseVisualStyleBackColor = true;
+            this.Tile5.UseVisualStyleBackColor = false;
             this.Tile5.Click += new System.EventHandler(this.Tile5_Click);
             // 
             // Tile6
             // 
+            this.Tile6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile6.Location = new System.Drawing.Point(148, 68);
             this.Tile6.Name = "Tile6";
             this.Tile6.Size = new System.Drawing.Size(109, 77);
             this.Tile6.TabIndex = 3;
-            this.Tile6.UseVisualStyleBackColor = true;
+            this.Tile6.UseVisualStyleBackColor = false;
             this.Tile6.Click += new System.EventHandler(this.Tile6_Click);
             // 
             // Tile7
             // 
+            this.Tile7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile7.Location = new System.Drawing.Point(263, 234);
             this.Tile7.Name = "Tile7";
             this.Tile7.Size = new System.Drawing.Size(109, 77);
             this.Tile7.TabIndex = 8;
-            this.Tile7.UseVisualStyleBackColor = true;
+            this.Tile7.UseVisualStyleBackColor = false;
             this.Tile7.Click += new System.EventHandler(this.Tile7_Click);
             // 
             // Tile8
             // 
+            this.Tile8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile8.Location = new System.Drawing.Point(263, 151);
             this.Tile8.Name = "Tile8";
             this.Tile8.Size = new System.Drawing.Size(109, 77);
             this.Tile8.TabIndex = 7;
-            this.Tile8.UseVisualStyleBackColor = true;
+            this.Tile8.UseVisualStyleBackColor = false;
             this.Tile8.Click += new System.EventHandler(this.Tile8_Click);
             // 
             // Tile9
             // 
+            this.Tile9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Tile9.Location = new System.Drawing.Point(263, 68);
             this.Tile9.Name = "Tile9";
             this.Tile9.Size = new System.Drawing.Size(109, 77);
             this.Tile9.TabIndex = 6;
-            this.Tile9.UseVisualStyleBackColor = true;
+            this.Tile9.UseVisualStyleBackColor = false;
             this.Tile9.Click += new System.EventHandler(this.Tile9_Click);
             // 
             // rst
             // 
-            this.rst.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rst.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.rst.Font = new System.Drawing.Font("Chiller", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rst.Location = new System.Drawing.Point(133, 25);
             this.rst.Name = "rst";
             this.rst.Size = new System.Drawing.Size(138, 37);
             this.rst.TabIndex = 9;
             this.rst.Text = "DRAW";
-            this.rst.UseVisualStyleBackColor = true;
+            this.rst.UseVisualStyleBackColor = false;
             this.rst.Click += new System.EventHandler(this.rst_Click);
             // 
             // inst
             // 
+            this.inst.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inst.BackgroundImage")));
+            this.inst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.inst.Location = new System.Drawing.Point(8, 9);
             this.inst.Name = "inst";
             this.inst.Size = new System.Drawing.Size(31, 27);
