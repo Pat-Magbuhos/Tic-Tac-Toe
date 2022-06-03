@@ -159,6 +159,22 @@ namespace Tic_Tac_Toe
                 {
                     Trn = "X";
                 }
+                if (Tile4.Text == Tile5.Text)
+                {
+                    if (Tile5.Text == Tile6.Text)
+                    {
+                        MessageBox.Show("Player " + Tile4.Text + " is the Winner");
+                        Tile1.Text = "";
+                        Tile2.Text = "";
+                        Tile3.Text = "";
+                        Tile4.Text = "";
+                        Tile5.Text = "";
+                        Tile6.Text = "";
+                        Tile7.Text = "";
+                        Tile8.Text = "";
+                        Tile9.Text = "";
+                    }
+                }
             }
         }
 
@@ -207,6 +223,22 @@ namespace Tic_Tac_Toe
                         Tile9.Text = "";
                     }
                 }
+                if (Tile5.Text == Tile6.Text)
+                {
+                    if (Tile6.Text == Tile4.Text)
+                    {
+                        MessageBox.Show("Player " + Tile4.Text + " is the Winner");
+                        Tile1.Text = "";
+                        Tile2.Text = "";
+                        Tile3.Text = "";
+                        Tile4.Text = "";
+                        Tile5.Text = "";
+                        Tile6.Text = "";
+                        Tile7.Text = "";
+                        Tile8.Text = "";
+                        Tile9.Text = "";
+                    }
+                }
             }
         }
 
@@ -222,6 +254,22 @@ namespace Tic_Tac_Toe
                 else
                 {
                     Trn = "X";
+                }
+                if (Tile6.Text == Tile5.Text)
+                {
+                    if (Tile5.Text == Tile4.Text)
+                    {
+                        MessageBox.Show("Player " + Tile4.Text + " is the Winner");
+                        Tile1.Text = "";
+                        Tile2.Text = "";
+                        Tile3.Text = "";
+                        Tile4.Text = "";
+                        Tile5.Text = "";
+                        Tile6.Text = "";
+                        Tile7.Text = "";
+                        Tile8.Text = "";
+                        Tile9.Text = "";
+                    }
                 }
             }
         }
