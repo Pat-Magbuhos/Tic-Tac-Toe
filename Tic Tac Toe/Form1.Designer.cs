@@ -58,6 +58,7 @@ namespace Tic_Tac_Toe
             // Tile2
             // 
             this.Tile2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile2.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile2.Location = new System.Drawing.Point(33, 151);
             this.Tile2.Name = "Tile2";
             this.Tile2.Size = new System.Drawing.Size(109, 77);
@@ -68,6 +69,7 @@ namespace Tic_Tac_Toe
             // Tile3
             // 
             this.Tile3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile3.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile3.Location = new System.Drawing.Point(33, 234);
             this.Tile3.Name = "Tile3";
             this.Tile3.Size = new System.Drawing.Size(109, 77);
@@ -78,6 +80,7 @@ namespace Tic_Tac_Toe
             // Tile4
             // 
             this.Tile4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile4.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile4.Location = new System.Drawing.Point(148, 234);
             this.Tile4.Name = "Tile4";
             this.Tile4.Size = new System.Drawing.Size(109, 77);
@@ -88,6 +91,7 @@ namespace Tic_Tac_Toe
             // Tile5
             // 
             this.Tile5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile5.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile5.Location = new System.Drawing.Point(148, 151);
             this.Tile5.Name = "Tile5";
             this.Tile5.Size = new System.Drawing.Size(109, 77);
@@ -109,6 +113,7 @@ namespace Tic_Tac_Toe
             // Tile7
             // 
             this.Tile7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile7.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile7.Location = new System.Drawing.Point(263, 234);
             this.Tile7.Name = "Tile7";
             this.Tile7.Size = new System.Drawing.Size(109, 77);
@@ -119,6 +124,7 @@ namespace Tic_Tac_Toe
             // Tile8
             // 
             this.Tile8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Tile8.Font = new System.Drawing.Font("Chiller", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tile8.Location = new System.Drawing.Point(263, 151);
             this.Tile8.Name = "Tile8";
             this.Tile8.Size = new System.Drawing.Size(109, 77);
