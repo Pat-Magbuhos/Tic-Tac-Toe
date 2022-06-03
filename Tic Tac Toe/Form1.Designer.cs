@@ -125,7 +125,7 @@ namespace Tic_Tac_Toe
             // 
             // rst
             // 
-            this.rst.Font = new System.Drawing.Font("Old English Text MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rst.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rst.Location = new System.Drawing.Point(133, 25);
             this.rst.Name = "rst";
             this.rst.Size = new System.Drawing.Size(138, 37);
@@ -159,6 +159,8 @@ namespace Tic_Tac_Toe
             this.Controls.Add(this.Tile3);
             this.Controls.Add(this.Tile2);
             this.Controls.Add(this.Tile1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ResumeLayout(false);
 
